@@ -58,6 +58,7 @@ function App() {
     if (!anyFalse) {
       clearDogs();
       getDogs();
+      setDogsTrue([false, false, false, false, false, false]);
     }
   }
 
